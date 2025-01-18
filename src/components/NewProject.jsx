@@ -2,7 +2,7 @@ import Input from "./input";
 import Button from "./button";
 function NewProject() {
   return (
-    <menu>
+    <menu className="bg-indigo-500">
       <div>
         <Input type="input" labelName='title' />
       </div>

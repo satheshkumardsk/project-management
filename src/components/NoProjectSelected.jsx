@@ -1,11 +1,16 @@
 import Button from "./button";
-function NoProjectSelected() {
+import PropTypes from "prop-types";
+function NoProjectSelected({onProjectSelection}) {
     return (
         <div>
             <p>No project selected</p>
-            <Button>Add project</Button>
+            <Button onClick={() => onProjectSelection(1)}>Add project</Button>
         </div>
     );
 }
 
 export default NoProjectSelected;
+
+NoProjectSelected.propTypes = {
+    onProjectSelection: PropTypes.func
+}
