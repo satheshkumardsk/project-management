@@ -7,7 +7,7 @@ function Input({ type, labelName }) {
     input = <textarea />;
   }
 
-  const label = <label>{labelName}</label>;
+  const label = <label className="font-bold">{labelName}</label>;
   return (
     <>
       {label}

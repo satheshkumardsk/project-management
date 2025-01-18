@@ -1,8 +1,9 @@
+import Button from "./button";
 function NoProjectSelected() {
     return (
         <div>
             <p>No project selected</p>
-            <button>Add project</button>
+            <Button>Add project</Button>
         </div>
     );
 }

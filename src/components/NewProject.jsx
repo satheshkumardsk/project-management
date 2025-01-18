@@ -1,4 +1,5 @@
 import Input from "./input";
+import Button from "./button";
 function NewProject() {
   return (
     <menu>
@@ -11,8 +12,8 @@ function NewProject() {
       <div>
         <Input type="input" labelName='date' />
       </div>
-      <button>Save</button>
-      <button>Cancel</button>
+      <Button>Save</Button>
+      <Button>Cancel</Button>
     </menu>
   );
 }
